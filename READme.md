@@ -1,4 +1,4 @@
-Default Login: Credential for User
+Default Login Credential for User
 EmailID : ad@gmail.com
 Passwd  : Dandy+12
 

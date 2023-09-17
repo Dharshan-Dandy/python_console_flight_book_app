@@ -7,6 +7,8 @@
 import re
 import pandas as pd
 import datetime
+
+#prettytable module is use to display the records as in table format
 from prettytable import PrettyTable
 
 credential_info = {"ad@gmail.com": ["AD","Liflq#9:",'ad@gmail.com','2003-02-12',"User"]}
@@ -18,6 +20,8 @@ def encrypt(text, key):
 
 def decrypt(encrypted_text, key):
        return ''.join([chr(ord(char) ^ key) for char in encrypted_text])
+
+
 def create_user():
     details = []
     consitent = True

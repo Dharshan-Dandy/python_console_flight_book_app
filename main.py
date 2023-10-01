@@ -5,7 +5,6 @@
 #Sign Up Module:
 
 import re
-import pandas as pd
 import datetime
 
 #prettytable module is use to display the records as in table format
@@ -169,7 +168,7 @@ def admin_space() :
         if admin_choice == "EXIT" :
             break
         if admin_choice == "VIEW" :
-            # print(pd.DataFrame(flight_details))
+            
             view_flight()
         if admin_choice == "ADD":
             print("Enter Information of Flight")
@@ -216,7 +215,7 @@ def user_space(user_details):
         if user_choice == "EXIT" :
             break
         if user_choice == "VIEW" :
-            # print(pd.DataFrame(flight_details))
+            
             view_flight()
         if user_choice == "BOOK":
             book_flight_no = input("Enter Flight No >> ")
